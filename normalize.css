@@ -1,0 +1,85 @@
+html 
+{
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+  
+/* Générale */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*
+{
+  /* Set border-box as the global default */
+  box-sizing: border-box;
+}   
+  
+a 
+{
+  text-decoration: none;
+}
+  
+header h1, header p, footer li, #info, #section2 h1
+{
+  min-inline-size: 300px;
+}
+  
+ul
+{
+  padding-left: 0;
+}
+  
+li 
+{
+  list-style-type: none;
+}
+  
+a
+{
+  color: black;
+}
+  
+a:hover
+{
+  color: #0065FC;
+  
+}
+  
+body
+{
+  font-family: 'Raleway', sans-serif;
+}
+
+body 
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 992px;
+}
+  
+main 
+{
+  display: block;
+}
+  
+a 
+{
+  background-color: transparent;
+}
+     
+b,
+strong 
+{
+  font-weight: bolder;
+}
+
+img 
+{
+  border-style: none;
+}
+  
+h3, p
+{
+  font-size: 15px;
+}

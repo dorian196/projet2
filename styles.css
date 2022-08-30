@@ -1,0 +1,499 @@
+/* en-tete */
+
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px; 
+    }
+
+    header ul
+    {
+        display: flex;
+    }
+
+    header nav li 
+    {
+        border-top: solid 5px transparent;
+        padding: 0px 15px 0px 15px;
+    }
+
+    #margenav
+    {
+        margin-right: 50px;
+    }
+
+    header nav li:hover
+    {
+        border-top: solid 5px  #0065FC;
+        padding: 75px 15px 0px 15px;
+        position: relative;
+        top: -75px;
+        margin-bottom: -75px;
+    }
+
+    header p 
+    {
+        font-size: smaller;
+    }
+
+    header img
+    {
+        width: 100px;
+        height: auto;
+        padding-left: 15px;
+    }
+
+     #txt h1
+    {
+        font-size: medium;
+        margin: 40px 0 -10px 0;
+    }
+
+/* Formulaire de recherche */
+
+    /* Icon */
+        .fa-location-dot
+        {
+            border: 1px solid transparent;
+            background-color: #F2F2F2;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px;
+            padding: 15px 20px 15px 20px;
+        }
+    /* Saisie */
+        #search
+        {
+            display: flex;   
+            width: 500px;
+        }
+
+        #search input
+        {
+            border: 1px solid #F2F2F2;
+            padding: 12px 0px 12px 15px;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        input:focus 
+        {
+            outline:  none;
+        }
+    /* Recherche */
+        #text
+        {
+            padding: 13px 20px 13px 20px;
+            border: 1px solid transparent;
+            background-color: #0065FC;
+            border-bottom-right-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        #text a
+        {
+            color: #F2F2F2;
+            font-weight: bold;
+        }
+
+        #recherche::placeholder
+        {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .fa-magnifying-glass
+        {
+            visibility: hidden;
+            font-size: 0;
+        }
+
+    /* Info */
+        .fa-info
+        {
+            font-size: 15px;
+            color: #0065FC;
+            border: 1px solid #E4E3E3;
+            border-radius: 50%;
+            padding: 4px 9px 4px 9px;
+            margin-right: 10px;
+        }  
+
+        #info
+        {
+            padding: 20px 0 20px 0;
+        }
+
+/* Filtres */
+
+    main nav ul 
+    {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    main li
+    {
+        margin-right: 20px;
+    }
+
+    /* Icon */
+
+        .fa-money-bill-wave, .fa-heart, .fa-dog
+
+        {
+            font-size: 25px;
+            color: #0065FC;
+            border: 1px solid transparent;
+            border-radius: 200px;
+            background-color: #DEEBFF;
+            margin-right: 20px;
+            padding: 15px;
+        }
+
+        .fa-child-reaching
+        {
+            font-size: 25px;
+            color: #0065FC;
+            border: 1px solid transparent;
+            border-radius: 200px;
+            background-color: #DEEBFF;
+            padding: 15px 18px 15px 18px;
+            margin-right: 20px;
+        }
+
+    /* Ensemble filtre */
+        main nav li a
+        {
+            float: right;
+            line-height: 50px;
+            padding: 0px 30px 0px 0px;
+            font-weight: bold;
+            border: 2px solid #E4E3E3;
+            border-radius: 200px;
+            border-left: transparent;
+        }
+
+    #noborder
+    {
+        border-color: transparent;
+        line-height: 50px;
+        font-weight: bold;
+    }
+    #noborder:hover
+    {
+        background-color: transparent;
+    }
+
+    #filtre1, #filtre2, #filtre3, #filtre4
+    {
+        width: auto;
+        height: auto;
+    }
+    
+    main nav li a:hover
+    {
+        color: white;
+        background-color: #0065FC;
+    }
+/* Hébergements */
+
+#section1
+{
+    display: flex;
+}
+
+section article
+{
+    border: 1px solid #F2F2F2 ;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding-left: 15px;
+    height: auto;
+    width: auto;
+}
+
+article ul
+{
+    display: flex;
+}
+
+article ul li
+{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px #E4E3E3;
+}
+article ul li a img
+{
+    border: transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 190px;
+    height: 95px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+article ul li div img
+{
+    width: 80px;
+    height: auto;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+article ul li h3, article ul li p
+{
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+article h2 a 
+{
+    font-size: 15px;
+}
+
+/* star */
+
+.margestar
+{
+    padding-left: 15px;
+}
+
+.fa-star
+{
+    color: #0065FC;
+    font-size: small;
+}
+
+#star0, #star1, #star2, #star3, #star4, #star5, #star6
+{
+    color: #c7c6c6;
+    font-size: small;
+}
+
+#star7
+{
+    font-size: medium;
+    color: black;
+    padding-left: 100px;
+}
+aside .fa-star
+{
+    padding-top: 20px;
+}
+
+/* aside */
+
+#section1
+{
+    display: flex;
+}
+
+aside
+{
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding-left: 15px;
+    margin-left: 20px;
+    height: auto;
+    width: auto;
+}
+
+#photo1
+{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px #E4E3E3;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    margin-right: 15px;
+    width: auto;
+    height: auto;
+}
+
+#photo2
+{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px #E4E3E3;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    margin-right: 15px;
+    width: auto;
+    height: auto;
+
+}
+
+#photo3
+{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px #E4E3E3;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    margin-right: 15px;
+    height: auto;
+    width: auto;
+
+}
+
+#section1 h1
+{
+    padding-top: 20px;
+}
+
+/* Images hotels */
+
+.te
+{
+    width: 100px;
+    height: 100px;
+    border: transparent;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+/* Note */
+
+aside li div img
+{
+    width: 80px;
+    height: auto;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+aside ul
+{
+    float: right;
+    padding-left: 15px;
+    padding-bottom: -10px;
+}
+
+aside li
+{
+    margin-bottom: -10px;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+/* Activités */
+
+#section2 ul 
+{
+    display: flex;
+}
+
+.borderx1
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 0px 0px #E4E3E3;
+    margin-left: 6px;
+}
+
+.borderx1nomarge
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 0px 0px #E4E3E3;
+}
+
+.borderx2
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 0px 0px #E4E3E3;
+    margin-left: 6px;
+    margin-bottom: 40px;
+}
+
+#section2 h3
+{
+    font-size: medium;
+    padding-left: 15px;
+}
+
+
+#section2 img
+{
+    border: 1px solid transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.photog1
+{
+    width: 227px;
+    height: 336px;
+}
+
+.photog2
+{
+    width: 227px;
+    height: 316px;
+}
+
+#p1
+{
+    width: 227px;
+    height: 138px;
+}
+
+#p2
+{
+    width: 227px;
+    height: 99px
+}
+
+#p3
+{
+    width: 227px;
+    height: 99px
+}
+
+#p4
+{
+    width: 227px;
+    height: 138px;
+}
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer
+{
+    background-color: #F2F2F2;
+    position: relative;
+    left: 0;
+    right: 0;
+    padding-top: 20px;
+}
+
+footer h2 
+{
+    font-size: medium;
+}
+
+footer li 
+{
+    padding-bottom: 10px;
+}
+

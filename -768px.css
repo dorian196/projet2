@@ -1,0 +1,270 @@
+html, body 
+{
+    padding:0;
+    margin:0;
+}
+
+h1
+{
+    font-size: 45px;
+}
+
+h2
+{
+    font-size: 40px;
+}
+
+h3
+{
+    font-size: 35px;
+}
+
+a, p
+{
+    font-size: 30px;
+}
+
+#section1 a 
+{
+    font-size: 40px;
+}
+
+#section2 h3
+{
+    font-size: 35px;
+}
+
+.fa-child-reaching, .fa-money-bill-wave, .fa-heart, .fa-dog
+{
+    font-size: 35px;
+}
+
+/* en-tete */
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px; 
+}
+
+header img
+{
+    margin-left: 20px;
+}
+
+header nav ul
+{
+    border-bottom: solid 5px #F2F2F2;
+    padding: 0 290px 0 290px;
+}
+header nav ul:hover
+{
+    
+    padding-left: 0;
+}
+header nav li:hover
+{
+    border-bottom: solid 5px  #0065FC;
+    padding: 0px 15px 0px 100%;
+    border-top: transparent;   
+}
+
+
+/* Formulaire de recherche */
+
+/* Icon */
+
+.fa-location-dot
+{
+    border: 1px solid transparent;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 15px 20px 15px 20px;
+    font-size: 42px;
+}
+
+.fa-magnifying-glass
+{
+    visibility: visible;
+    font-size: 42px;
+    padding: 13px 20px 17px 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: #0065FC;
+    position: absolute;
+    left: 500px;
+}
+
+/* Saisie */
+#search
+{
+    display: flex;   
+    width: auto;
+}
+
+#search input
+{
+    border: 1px solid #F2F2F2;
+    padding: 24px 0px 15px 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+input:focus 
+{
+    outline:  none;
+}
+/* Recherche */
+#text
+{
+    visibility: hidden;
+    font-size: 0;
+}
+
+#text a
+{
+    color: #F2F2F2;
+    font-weight: bold;
+}
+
+#recherche::placeholder
+{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Filtres */
+
+#txt h1
+{
+    font-size: 40px;
+}
+
+main nav ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main nav li
+{
+    margin-bottom: 20px;
+}
+
+#noborder
+{
+    font-size: 30px;
+}
+
+/* Hébergements */
+
+#section1
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+article ul
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -15px;
+}
+
+article ul li
+{
+    margin-bottom: 15px;
+}
+
+article ul li a img
+{
+    border: transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 950px;
+    height: 475px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+/* Aside */
+
+.fa-info
+{
+    font-size: 35px;
+}
+
+.fa-star, #star0, #star1, #star2, #star3, #star4, #star5, #star6
+{
+    font-size: 35px;
+}
+
+#star7
+{
+    font-size: 35px;
+}
+
+.te
+{
+    width: 300px;
+    height: 300px;
+}
+
+aside ul 
+{
+   margin-right: 250px;
+}
+
+aside
+{
+    margin-left: -10px;
+    margin-bottom: 15px;
+}
+
+/* Activités */
+
+#section2 ul
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+#ancre2
+{
+    margin-left: 15px;
+}
+
+.photog1, .photog2, #p1, #p2, #p3, #p4
+{
+    width: 950px;
+    height: 475px;
+}
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div
+{
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+footer h2
+{
+    font-size: 35px;
+}
