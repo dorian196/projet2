@@ -55,23 +55,32 @@ header img
     margin-left: 20px;
 }
 
-header nav ul
+
+
+header nav li
 {
     border-bottom: solid 5px #F2F2F2;
-    padding: 0 290px 0 290px;
+    padding: 0 172px 0 171px;
 }
-header nav ul:hover
-{
-    
-    padding-left: 0;
-}
+
 header nav li:hover
 {
     border-bottom: solid 5px  #0065FC;
-    padding: 0px 15px 0px 100%;
+    padding: 0 172px 0 171px;
     border-top: transparent;   
+    margin-top: 75px;
 }
 
+header nav li:hover
+{
+    position: relative;
+    top: -75px;
+}
+
+#margenav
+{
+    margin-right: -2px;
+}
 
 /* Formulaire de recherche */
 
@@ -114,12 +123,6 @@ header nav li:hover
     font-weight: bold;
 }
 
-
-
-input:focus 
-{
-    outline:  none;
-}
 /* Recherche */
 #text
 {
