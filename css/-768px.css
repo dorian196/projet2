@@ -153,8 +153,13 @@ header nav li:hover
 main nav ul
 {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: flex-start;
+}
+
+#filtre3, #noborder
+{
+    margin-right: 100%;
 }
 
 main nav li
