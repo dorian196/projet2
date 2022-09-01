@@ -255,6 +255,11 @@ article h2 a
     font-size: 15px;
 }
 
+.petite_resolution1
+{
+    display: none;
+}
+
 /* star */
 
 .margestar
@@ -344,6 +349,11 @@ aside
 
 }
 
+.resolution_tablette
+{
+    display: none;
+}
+
 #section1 h1
 {
     padding-top: 20px;
@@ -351,7 +361,7 @@ aside
 
 /* Images hotels */
 
-.te
+#img_populaire1, #img_populaire3, #img_populaire2
 {
     width: 100px;
     height: 100px;
@@ -465,6 +475,11 @@ aside li
 {
     width: 227px;
     height: 138px;
+}
+
+.petite_resolution2
+{
+    display: none;
 }
 
 /* Footer */

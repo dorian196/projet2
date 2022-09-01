@@ -204,6 +204,16 @@ article ul li a img
     padding-right: 5px;
 }
 
+.petite_resolution1
+{
+    display: block;
+}
+
+.imgdesktop
+{
+    display: none;
+}
+
 /* Aside */
 
 .fa-info
@@ -221,15 +231,31 @@ article ul li a img
     font-size: 35px;
 }
 
-.te
+#img_populaire1, #img_populaire3, #img_populaire2
 {
+    display: inline;
     width: 300px;
     height: 300px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+}
+
+.resolution_tablette
+{
+    display: none;
 }
 
 aside ul 
 {
    margin-right: 250px;
+}
+
+#aside
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 aside
@@ -256,6 +282,16 @@ aside
 {
     width: 950px;
     height: 475px;
+}
+
+.photog1, .photog2, #p1, #p2, #p3, #p4
+{
+    display: none;
+}
+
+.petite_resolution2
+{
+    display: block;
 }
 
 /* Footer */

@@ -1,22 +1,76 @@
-body
-{
-    margin-left: 5px;
-}
+
+/* Hébergemets */
 
 #section1
 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-aside
-{
-    margin-top: 20px;
+    flex-direction: column-reverse;
 }
 
 main nav li
 {
     white-space: nowrap;
+}
+
+article ul li a img
+{
+    width: 300px;
+    height: 150px;
+}
+
+article ul
+{
+    display: flex;
+}
+
+/* Aside */
+
+aside
+{
+    margin-left: -10px;
+    margin-bottom: 15px;
+}
+
+#aside
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+aside ul
+{
+    margin-right: 125px;
+}
+
+#photo1, #photo2, #photo3
+{
+    margin-right: 10px;
+}
+
+#img_populaire1, #img_populaire2, #img_populaire3
+{
+    display: none;
+}
+
+.resolution_tablette
+{
+    display: block;
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    margin: 5px -10px 0px 5px;
+}
+
+#photo_tablette1
+{
+    margin-right: -4px;
+}
+
+#photo_tablette3
+{
+    margin-right: -15px;
 }
 
