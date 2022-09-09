@@ -1,7 +1,13 @@
 html, body 
 {
     padding:0;
-    margin:0;
+    margin:0 10px 0 5px;
+}
+
+header img
+{
+    width: 200px;
+    height: auto;
 }
 
 h1
@@ -39,6 +45,16 @@ a, p
     font-size: 35px;
 }
 
+#txt, #search, main nav, #info
+{
+    margin-left: 20px;
+}
+
+#txt
+{
+    inline-size: 800px;
+}
+
 /* en-tete */
 
 header
@@ -60,13 +76,13 @@ header img
 header nav li
 {
     border-bottom: solid 5px #F2F2F2;
-    padding: 0 172px 0 171px;
+    padding: 0 170px 0 170px;
 }
 
 header nav li:hover
 {
     border-bottom: solid 5px  #0065FC;
-    padding: 0 172px 0 171px;
+    padding: 0 170px 0 170px;
     border-top: transparent;   
     margin-top: 75px;
 }
@@ -79,7 +95,8 @@ header nav li:hover
 
 #margenav
 {
-    margin-right: -2px;
+    margin-right: 0px;
+    padding-left: 190px;
 }
 
 /* Formulaire de recherche */
@@ -99,8 +116,8 @@ header nav li:hover
 .fa-magnifying-glass
 {
     visibility: visible;
-    font-size: 42px;
-    padding: 13px 20px 17px 20px;
+    font-size: 35px;
+    padding: 20px 20px 17px 20px;
     border: 1px solid transparent;
     border-radius: 15px;
     background-color: #0065FC;
@@ -178,6 +195,7 @@ main nav li
 {
     display: flex;
     flex-direction: column-reverse;
+    margin-left: -5px;
 }
 
 article ul
@@ -190,18 +208,19 @@ article ul
 article ul li
 {
     margin-bottom: 15px;
+    border-radius: 50px;
 }
 
 article ul li a img
 {
     border: transparent;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     width: 950px;
-    height: 475px;
+    height: 400px;
     padding-left: 5px;
     padding-top: 5px;
-    padding-right: 5px;
+    padding-right: 0px;
 }
 
 .petite_resolution1
@@ -266,6 +285,11 @@ aside
 
 /* Activités */
 
+#section2
+{
+    margin-left: -5px;
+}
+
 #section2 ul
 {
     display: flex;
@@ -273,15 +297,20 @@ aside
     margin-left: 15px;
 }
 
+#section2 li
+{
+    border-radius: 50px;
+}
+
+#section2 img
+{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
 #ancre2
 {
     margin-left: 15px;
-}
-
-.photog1, .photog2, #p1, #p2, #p3, #p4
-{
-    width: 950px;
-    height: 475px;
 }
 
 .photog1, .photog2, #p1, #p2, #p3, #p4
@@ -292,6 +321,13 @@ aside
 .petite_resolution2
 {
     display: block;
+    width: 950px;
+    height: 400px;
+}
+
+#margin_activite1, #margin_activite2
+{
+    margin-top: 40px;
 }
 
 /* Footer */
@@ -300,6 +336,7 @@ footer
 {
     display: flex;
     flex-direction: column;
+    padding-left: 30px;
 }
 
 footer div
